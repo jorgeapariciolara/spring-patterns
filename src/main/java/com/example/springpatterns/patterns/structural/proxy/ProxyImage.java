@@ -10,6 +10,9 @@ public class ProxyImage implements Image{
     }
 
     @Override
+    /**
+     *
+     */
     public void show() {
         // El objeto realImage se crea solo la primera vez
         if (realImage == null) {
