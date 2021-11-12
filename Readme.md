@@ -19,3 +19,4 @@ Readme File
 * proxy: Karim  https://sonarcloud.io/summary/overall?id=KarimJesusGalvez_spring-patterns
 
 5. Corregir algunos bugs y code smells
+6. Open pull Request
