@@ -10,11 +10,17 @@ public class RealImage implements Image {
         loadFromDisk(fileName);
     }
 
+    /**
+     * Loads the file
+     */
     private void loadFromDisk(String fileName) {
         System.out.println("Loading image "+ fileName);
     }
 
     @Override
+    /**
+     * Prints the image
+     */
     public void show() {
         System.out.println("Showing "+ fileName);
     }

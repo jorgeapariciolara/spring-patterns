@@ -15,6 +15,9 @@ class ProxyImageTest {
     void setUp() {proxyImage = new ProxyImage("filename");}
 
     @Test
+    /**
+     *     @DisplayName("sets up the real image if null and shows it")
+     */
     @DisplayName("sets up the real image if null and shows it")
     void showCreate() {
         assertDoesNotThrow(() ->proxyImage.show());

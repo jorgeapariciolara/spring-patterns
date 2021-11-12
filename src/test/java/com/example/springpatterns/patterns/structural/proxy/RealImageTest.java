@@ -14,6 +14,9 @@ class RealImageTest {
     void setUp() {realImage = new RealImage("filename");}
 
     @Test
+    /**
+     *     @DisplayName("Prints image")
+     */
     @DisplayName("Prints image")
     void show() {assertDoesNotThrow(() ->realImage.show());}
 }
