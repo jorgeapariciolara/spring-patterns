@@ -4,9 +4,13 @@ package com.example.springpatterns.patterns.behavioral.template;
 public class HtmlHome extends HtmlAboutUs {
     @Override
     public String head() {
+
         return
                 "Página de inicio";
                     
+
+
+        return "Página de inicio";
 
     }
 
