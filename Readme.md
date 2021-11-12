@@ -17,3 +17,5 @@ Readme File
 * decorator: David
 * facade: Miguel
 * proxy: Karim  https://sonarcloud.io/summary/overall?id=KarimJesusGalvez_spring-patterns
+
+5. Corregir algunos bugs y code smells
