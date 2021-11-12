@@ -42,7 +42,7 @@
         <java.version>17</java.version>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <sonar.organization>alansastre</sonar.organization>
+        <sonar.organization>ioanstirbu</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
         <sonar.junit.reportsPath>target/surefire-reports/*.xml</sonar.junit.reportsPath>
@@ -250,7 +250,7 @@
                                         <limit>
                                             <counter>COMPLEXITY</counter>
                                             <value>COVEREDRATIO</value>
-
+                                            <minimum>0.01</minimum>
                                         </limit>
                                     </limits>
                                 </rule>
