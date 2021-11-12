@@ -7,21 +7,13 @@ public abstract class HtmlTemplate {
 
         // return head() + body() + footer();
 
-        return String.format("""
-                %s
-                %s
-                %s
-                """, head(), body(), footer());
+        return String.format("%s %s %s ", head(), body(), footer());
     }
 
     public abstract String head();
     public abstract String body();
 
     public String footer(){
-        return """
-                <footer>
-                    Copyright 2021 Principal
-                </footer> </body></html>
-                """;
+        return "Copyright 2021 Principal";
     }
 }
