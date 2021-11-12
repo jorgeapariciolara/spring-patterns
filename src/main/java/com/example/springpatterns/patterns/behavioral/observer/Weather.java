@@ -34,7 +34,7 @@ public class Weather {
      * Cambia el tiempo y notifica a los observadores asociados
      * @param currentWeather
      */
-    void changeWeather(WeatherType currentWeather){
+    public void changeWeather(WeatherType currentWeather){
         this.currentWeather = currentWeather; // cambia
         this.notifyObservers(); // notifica
     }

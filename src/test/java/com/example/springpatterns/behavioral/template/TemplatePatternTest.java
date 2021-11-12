@@ -1,4 +1,4 @@
-package com.example.springpatterns;
+package com.example.springpatterns.behavioral.template;
 
 import com.example.springpatterns.patterns.behavioral.template.HtmlAboutUs;
 import com.example.springpatterns.patterns.behavioral.template.HtmlHome;
@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class TemplatePatternTest {
+
 
     @Test
     void htmlAbout() {
@@ -33,4 +34,5 @@ public class TemplatePatternTest {
         assertTrue(htmlHome.render().contains("Home"));
         assertTrue(htmlHome.render().contains("Principal"));
     }
+
 }
