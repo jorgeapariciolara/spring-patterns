@@ -19,5 +19,6 @@ public class Main {
         csrf.isAuthorized(new JWTAuthProvider());
         csrf.isAuthorized(new OAuthProvider());
 
+
     }
 }
