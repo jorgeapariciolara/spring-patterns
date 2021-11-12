@@ -1,7 +1,7 @@
 Readme File
 
 1. Plugins maven:
-    * <build> <reporting> </build> </reporting>
+    * <build></build> <reporting></reporting>
     * Verificar que funciona en local ejecutando `install`
 2. GitHub Actions
 3. SonarCloud
