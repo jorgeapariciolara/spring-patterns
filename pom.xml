@@ -13,7 +13,28 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-patterns</name>
     <description>spring-patterns</description>
+          <url>https://www.awesomeapp.org/</url>
+
+    <developers>
+        <developer>
+            <name>alansastre</name>
+            <email>alan@example.com</email>
+        </developer>
+    </developers>
+
+    <contributors>
+        <contributor>
+            <email>user1@example.com</email>
+        </contributor>
+    </contributors>
+
+    <organization>
+        <name>COSMIC DEVELOPMENTS S.L.</name>
+        <url>https://example.com</url>
+    </organization>
+
     <properties>
+         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>17</java.version>
         <sonar.organization>dsansp</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
