@@ -4,12 +4,12 @@ package com.example.springpatterns.patterns.behavioral.template;
 public class HtmlHome extends HtmlAboutUs {
     @Override
     public String head() {
-        return "Pagina de Inicio";
+        return "Página de inicio";
     }
 
     @Override
     public String body() {
-        return "Hola desde home";
+        return "Hola desde Home";
     }
 
 }

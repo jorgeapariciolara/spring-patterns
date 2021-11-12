@@ -7,6 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class TemplatePatternTest {
 
+
     @Test
     void htmlAbout() {
 
@@ -33,4 +34,5 @@ public class TemplatePatternTest {
         assertTrue(htmlHome.render().contains("Home"));
         assertTrue(htmlHome.render().contains("Principal"));
     }
+
 }
