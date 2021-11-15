@@ -1,4 +1,4 @@
-package com.example.springpatterns;
+package com.example.springpatterns.behavioral.template;
 
 import com.example.springpatterns.patterns.behavioral.template.HtmlAboutUs;
 import com.example.springpatterns.patterns.behavioral.template.HtmlHome;
