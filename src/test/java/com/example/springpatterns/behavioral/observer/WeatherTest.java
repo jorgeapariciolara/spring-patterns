@@ -75,6 +75,8 @@ public class WeatherTest {
         aemet.changeWeather(WeatherType.SUNNY);
 
 
+        assertNotNull(computer);
+        assertNotNull(aemet);
 
 
     }
