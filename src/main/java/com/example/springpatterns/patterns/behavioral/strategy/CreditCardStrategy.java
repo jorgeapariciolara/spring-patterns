@@ -49,4 +49,6 @@ public class CreditCardStrategy implements PaymentStrategy {
     public void pay(double amount) {
         System.out.println(amount + " paid with credir card");
     }
+
+
 }

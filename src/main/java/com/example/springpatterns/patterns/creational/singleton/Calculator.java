@@ -7,7 +7,7 @@ public class Calculator {
 
 	private static Calculator calculadora;
 	
-	private Calculator() {
+	Calculator() {
 		
 	}
 	

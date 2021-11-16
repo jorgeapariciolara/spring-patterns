@@ -30,9 +30,9 @@ class CreditCardStrategyTest {
     }
 
     @Test
-    void setCcv() {
-        creditCardStrategy.setCcv("Ccv");
-        assertEquals("Ccv", creditCardStrategy.getCcv());
+    void setCvv() {
+        creditCardStrategy.setCvv("Ccv");
+        assertEquals("Cvv", creditCardStrategy.getCvv());
     }
 
     @Test

@@ -1,6 +1,6 @@
 package com.example.springpatterns.patterns.structural.decorator.decoradores;
 
-import com.example.proyectotesting.patterns.structural.decorator.Photo;
+import com.example.springpatterns.patterns.structural.decorator.Photo;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

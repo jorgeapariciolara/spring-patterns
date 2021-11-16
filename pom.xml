@@ -17,8 +17,8 @@
 
     <developers>
         <developer>
-            <name>alansastre</name>
-            <email>alan@example.com</email>
+            <name>jorgeaparicio</name>
+            <email>jorge@example.com</email>
         </developer>
     </developers>
 
@@ -43,7 +43,6 @@
         <sonar.java.checkstyle.reportPaths>target/checkstyle-result.xml</sonar.java.checkstyle.reportPaths>
         <sonar.java.pmd.reportPaths>target/pmd.xml</sonar.java.pmd.reportPaths>
         <sonar.java.spotbugs.reportPaths>target/spotbugsXml.xml</sonar.java.spotbugs.reportPaths>
-        <sonar.organization>alansastre</sonar.organization>
         <sonar.organization>jorgeapariciolara</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
@@ -57,7 +56,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
@@ -84,7 +82,6 @@
                 <artifactId>maven-surefire-report-plugin</artifactId>
                 <version>3.0.0-M5</version>
             </plugin>
-
             <!--            Plugin para mostrar la documentación javadoc en el maven site-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -94,7 +91,6 @@
                     <doclint>none</doclint>  <!-- Turnoff all checks -->
                 </configuration>
             </plugin>
-
             <!--            Plugin JaCoCo para mostrar el reporte de cobertura en el maven site -->
             <plugin>
                 <groupId>org.jacoco</groupId>
@@ -108,7 +104,6 @@
                     </reportSet>
                 </reportSets>
             </plugin>
-
             <!--            https://maven.apache.org/plugins/maven-checkstyle-plugin/index.html-->
             <!--            Plugin Checkstyle: https://checkstyle.org/-->
             <plugin>
@@ -123,7 +118,6 @@
                     </reportSet>
                 </reportSets>
             </plugin>
-
             <!--            Plugin PMD-->
             <!--            http://maven.apache.org/plugins/maven-pmd-plugin/index.html-->
             <plugin>
@@ -152,13 +146,11 @@
                     </compileSourceRoots>
                 </configuration>
             </plugin>
-
             <plugin>
                 <groupId>com.github.spotbugs</groupId>
                 <artifactId>spotbugs-maven-plugin</artifactId>
                 <version>4.4.2.2</version>
             </plugin>
-
         </plugins>
     </reporting>
 
@@ -168,19 +160,18 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-site-plugin</artifactId>
                 <version>3.9.1</version>
             </plugin>
-
+            <!--
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M5</version>
             </plugin>
-
+            -->
             <!--            https://www.eclemma.org/jacoco/trunk/doc/maven.html -->
             <plugin>
                 <groupId>org.jacoco</groupId>
@@ -200,14 +191,8 @@
                             <goal>report</goal>
                         </goals>
                     </execution>
-
                 </executions>
-
             </plugin>
-
-
-
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-pmd-plugin</artifactId>
@@ -245,9 +230,6 @@
                     </compileSourceRoots>
                 </configuration>
             </plugin>
-
-
         </plugins>
     </build>
-
 </project>
